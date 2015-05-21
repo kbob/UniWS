@@ -1,6 +1,12 @@
 #ifndef UniWS_h
 #define UniWS_h
 
+
+#ifndef __MKL26Z64__
+  #error "The UniWS library only works on Teensy LC boards."
+#endif
+
+
 #include <stdint.h>
 
 // UniWS drives a single strand of WS28xx LEDs.  It runs on the Teensy
