@@ -38,3 +38,11 @@ You can use pin 16 for non-PWM digital or analog I/O.
 RAM
 Refresh Speed
 Power
+
+# To Do
+
+Make the API match Neopixel.
+Write and test examples for explicitly allocated buffers.
+Get some 400 KHz and some 800 KHz LEDs and test them.
+Clean up the timing constants.
+Add trivial examples to this README.
